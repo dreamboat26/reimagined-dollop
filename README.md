@@ -2,9 +2,6 @@
 # Parallelizing a chess engine
 
 ## Summary
-
-One of our university chess club's project is to implement a chess playing engine. The co-author and I decided to take one of the engines designed by our classmates and improve it. 
-
 This notebook illustrates the steps taken towards optimizing this simple chess engine in an incremental way, starting by parallelizing it's search algorithm, then applying some optimization techniques, and finally trying out the iterative deepening variation of the classical minimax algorithm.
 
 At each step, a simulation is executed to test the performance of the improvement. A simulation is a succession of chess games played between two different versions of the engine, comparing search time between them. It does not matter which of the two engines wins, as it is not part of this work to make it play "smarter", the heuristic estimation functions for all the versions in this notebook are the same, we put the focus only on execution time.
@@ -352,16 +349,6 @@ We'd like to finish this notebook by saying that this work was done mainly for l
 Building a competitive chess engine requires a lot more work. For some, it has been their entire masters thesis to implement a decent parallel chess engine (you may find a couple theses about that in the references).
 
 Nevertheless, the engine is quite good at playing, you can download the code and/or this notebook and play around with it, by watching games between different versions at different depths. 
-
-And with some (not so hard) additional code, you can make it play against you and see if you can beat it!
-
-Contact us if you'd like to ask or say anything about this work.
-
-### Authors
-
-HENNI Mohammed  & GACI Yacine
-
-https://github.com/hennimohammed
 
 ## References 
 
